@@ -16,10 +16,11 @@ jobs:
       pr: ${{ steps.release.outputs.pr }}
     steps:
       - id: release
-        uses: google-github-actions/release-please-action@v4
-#        with:
-#          release-type: node
-#          token: ${{ secrets.RELEASE_PLEASE }}
+        uses: googleapis/release-please-action@v4
+        with:
+          release-type: node
+          package-name: "@wirenboard/eslint"
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/checkout@v4
         if: ${{ steps.release.outputs.pr }}
@@ -52,4 +53,3 @@ jobs:
         run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-
