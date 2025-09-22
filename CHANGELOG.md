@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/wirenboard/eslint/compare/v1.1.0...v1.1.1) (2025-09-22)
+
+
+### Bug Fixes
+
+* dependency package version ([16a1a7d](https://github.com/wirenboard/eslint/commit/16a1a7da780db7b6f3b2a536b50acee52f44aa32))
+
 ## [1.1.0](https://github.com/wirenboard/eslint/compare/v1.0.0...v1.1.0) (2025-09-22)
 
 
