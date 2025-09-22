@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/wirenboard/eslint/compare/v1.1.2...v1.1.3) (2025-09-22)
+
+
+### Bug Fixes
+
+* react ignores ([ca1b70e](https://github.com/wirenboard/eslint/commit/ca1b70ea6dfc309f297a4d3a5bb0f82dd73a5fcf))
+
 ## [1.1.2](https://github.com/wirenboard/eslint/compare/v1.1.1...v1.1.2) (2025-09-22)
 
 
