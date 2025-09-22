@@ -3,6 +3,12 @@ import reactPlugin from 'eslint-plugin-react';
 export default [
   {
     files: ['**/*.{jsx,tsx}'],
+    ignores: [
+      '.git/**',
+      'dist/**',
+      'test/**',
+      'node_modules/**',
+    ],
     plugins: {
       react: reactPlugin,
     },
