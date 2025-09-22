@@ -11,15 +11,13 @@
     "type": "git",
     "url": "git+https://github.com/wirenboard/eslint.git"
   },
-  "dependencies": {
+  "peerDependencies": {
     "@eslint/js": "9.19.0",
     "@stylistic/eslint-plugin": "3.0.1",
     "@typescript-eslint/eslint-plugin": "8.24.0",
     "@typescript-eslint/parser": "8.20.0",
     "eslint-plugin-import": "2.31.0",
-    "eslint-plugin-react": "7.37.5"
-  },
-  "peerDependencies": {
+    "eslint-plugin-react": "7.37.5",
     "eslint": "^9.19.0"
   }
 }
