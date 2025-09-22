@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/wirenboard/eslint/compare/v1.1.1...v1.1.2) (2025-09-22)
+
+
+### Bug Fixes
+
+* peer dependencies ([5ab55c0](https://github.com/wirenboard/eslint/commit/5ab55c08b02a7890e336113490c65304d0098340))
+
 ## [1.1.1](https://github.com/wirenboard/eslint/compare/v1.1.0...v1.1.1) (2025-09-22)
 
 
