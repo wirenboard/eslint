@@ -1,0 +1,25 @@
+{
+  "name": "@wirenboard/eslint",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.mjs",
+    "./react": "./react.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wirenboard/eslint.git"
+  },
+  "dependencies": {
+    "@eslint/js": "9.19.0",
+    "@stylistic/eslint-plugin": "3.0.1",
+    "@typescript-eslint/eslint-plugin": "8.23.0",
+    "@typescript-eslint/parser": "8.20.0",
+    "eslint-plugin-import": "2.31.0",
+    "eslint-plugin-react": "7.37.4"
+  },
+  "peerDependencies": {
+    "eslint": "^9.19.0"
+  }
+}
