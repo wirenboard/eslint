@@ -17,9 +17,9 @@ jobs:
     steps:
       - id: release
         uses: google-github-actions/release-please-action@v4
-        with:
-          release-type: node
-          token: ${{ secrets.RELEASE_PLEASE }}
+#        with:
+#          release-type: node
+#          token: ${{ secrets.RELEASE_PLEASE }}
 
       - uses: actions/checkout@v4
         if: ${{ steps.release.outputs.pr }}
