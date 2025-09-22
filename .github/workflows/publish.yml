@@ -19,7 +19,6 @@ jobs:
         uses: googleapis/release-please-action@v4
         with:
           release-type: node
-          package-name: "@wirenboard/eslint"
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/checkout@v4
