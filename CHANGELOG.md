@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/wirenboard/eslint/compare/v1.0.0...v1.1.0) (2025-09-22)
+
+
+### Features
+
+* publish package ([8936838](https://github.com/wirenboard/eslint/commit/8936838aa75e1a0215b2b1523061357f2754d5e5))
+
 ## 1.0.0 (2025-09-22)
 
 
