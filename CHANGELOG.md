@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.6](https://github.com/wirenboard/eslint/compare/v1.4.5...v1.4.6) (2025-09-29)
+
+
+### Bug Fixes
+
+* update vue config ([a3af5c5](https://github.com/wirenboard/eslint/commit/a3af5c5bf7078dc26cf22d09d342757e305f236b))
+
 ## [1.4.5](https://github.com/wirenboard/eslint/compare/v1.4.4...v1.4.5) (2025-09-29)
 
 
