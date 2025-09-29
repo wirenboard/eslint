@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.2](https://github.com/wirenboard/eslint/compare/v1.4.1...v1.4.2) (2025-09-29)
+
+
+### Bug Fixes
+
+* autopublish ([3e5d8ff](https://github.com/wirenboard/eslint/commit/3e5d8fffb80a794c6d74a8a950f6d52d29e95da5))
+
 ## [1.4.1](https://github.com/wirenboard/eslint/compare/v1.4.0...v1.4.1) (2025-09-29)
 
 
