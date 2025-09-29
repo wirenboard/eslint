@@ -5,7 +5,8 @@
   "main": "index.js",
   "exports": {
     ".": "./index.mjs",
-    "./react": "./react.mjs"
+    "./react": "./react.mjs",
+    "./vue": "./vue.mjs"
   },
   "repository": {
     "type": "git",
@@ -16,8 +17,11 @@
     "@stylistic/eslint-plugin": "3.0.1",
     "@typescript-eslint/eslint-plugin": "8.24.0",
     "@typescript-eslint/parser": "8.20.0",
+    "@vue/eslint-config-typescript": "14.6.0",
+    "eslint": "^9.19.0",
     "eslint-plugin-import": "2.31.0",
     "eslint-plugin-react": "7.37.5",
-    "eslint": "^9.19.0"
+    "eslint-plugin-vue": "10.5.0",
+    "vue-eslint-parser": "10.2.0"
   }
 }

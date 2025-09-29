@@ -12,6 +12,7 @@ export default [
       '**/*.mjs',
       '**/*.ts',
       '**/*.tsx',
+      '**/*.vue',
     ],
     ignores: [
       '.git/**',
@@ -24,11 +25,17 @@ export default [
       eqeqeq: 2,
       strict: [2, 'never'],
       'no-var': 1,
-      'no-empty': 0,
+      'no-empty': ['warn', { allowEmptyCatch: true }],
       'no-param-reassign': 2,
       'no-restricted-globals': 0,
       'no-unused-vars': [2, {
         args: 'after-used', caughtErrors: 'none', argsIgnorePattern: '^_', varsIgnorePattern: '^(_|[A-Z])[a-zA-Z0-9]*$',
+      }],
+      'object-curly-newline': ['error', {
+        ImportDeclaration: { multiline: true, consistent: true },
+        ExportDeclaration: { multiline: true, consistent: true },
+        ObjectExpression: { multiline: true, consistent: true },
+        ObjectPattern: { multiline: true, consistent: true }
       }],
       'no-return-assign': 0,
       'no-console': 0,
@@ -56,7 +63,7 @@ export default [
       'stylistic/max-len': [1, { code: 120, comments: 160 }],
       'stylistic/comma-spacing': 1,
       'stylistic/comma-dangle': [1, {
-        objects: 'always-multiline', enums: 'always-multiline', imports: 'never', arrays: 'always-multiline',
+        objects: 'always-multiline', enums: 'always-multiline', imports: 'always-multiline', arrays: 'always-multiline',
       }],
       'stylistic/member-delimiter-style': [1, {
         multiline: { delimiter: 'semi', requireLast: true }, singleline: { delimiter: 'semi', requireLast: false },
