@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/wirenboard/eslint/compare/v1.2.0...v1.3.0) (2025-09-29)
+
+
+### Features
+
+* add vue config ([545f3dc](https://github.com/wirenboard/eslint/commit/545f3dc8ec95fa59fb0d62afd0a6881fc61c0434))
+
 ## [1.2.0](https://github.com/wirenboard/eslint/compare/v1.1.3...v1.2.0) (2025-09-29)
 
 
