@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/wirenboard/eslint/compare/v1.1.3...v1.2.0) (2025-09-29)
+
+
+### Features
+
+* make internal dependencies ([a0cb01f](https://github.com/wirenboard/eslint/commit/a0cb01f20229e1970c9b67beb7f03ccb614eb840))
+
 ## [1.1.3](https://github.com/wirenboard/eslint/compare/v1.1.2...v1.1.3) (2025-09-22)
 
 
