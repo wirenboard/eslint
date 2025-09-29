@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/wirenboard/eslint/compare/v1.3.0...v1.4.0) (2025-09-29)
+
+
+### Miscellaneous Chores
+
+* release 1.4.0 ([8956f60](https://github.com/wirenboard/eslint/commit/8956f601a90c4054850bdce58b01e33867b5ed7d))
+
 ## [1.3.0](https://github.com/wirenboard/eslint/compare/v1.2.0...v1.3.0) (2025-09-29)
 
 
