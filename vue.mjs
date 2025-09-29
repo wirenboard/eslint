@@ -43,7 +43,6 @@ export default defineConfigWithVueTs(
     },
     languageOptions: {
       parser: vueParser,
-
       parserOptions: {
         parser: typescriptParser,
       },
