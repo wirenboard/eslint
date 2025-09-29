@@ -47,5 +47,5 @@ export default defineConfigWithVueTs(
         parser: typescriptParser,
       },
     },
-  }
+  },
 );
