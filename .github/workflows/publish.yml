@@ -3,6 +3,10 @@ name: Publish
 on:
   release:
     types: [released]
+  workflow_run:
+    workflows: [Create release]
+    types:
+    - completed
 
 jobs:
   publish:
