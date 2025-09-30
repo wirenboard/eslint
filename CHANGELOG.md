@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.22](https://github.com/wirenboard/eslint/compare/v1.4.21...v1.4.22) (2025-09-30)
+
+
+### Bug Fixes
+
+* bump version ([0703a77](https://github.com/wirenboard/eslint/commit/0703a77e674176619a94d02cf8413deea5cf0a49))
+
 ## [1.4.21](https://github.com/wirenboard/eslint/compare/v1.4.20...v1.4.21) (2025-09-30)
 
 
