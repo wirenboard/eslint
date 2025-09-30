@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.17](https://github.com/wirenboard/eslint/compare/v1.4.16...v1.4.17) (2025-09-30)
+
+
+### Bug Fixes
+
+* publish logic ([8eaa989](https://github.com/wirenboard/eslint/commit/8eaa9893507dc1f13227e794ffb53b4edbce9f34))
+
 ## [1.4.16](https://github.com/wirenboard/eslint/compare/v1.4.15...v1.4.16) (2025-09-30)
 
 
