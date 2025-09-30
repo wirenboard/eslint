@@ -27,10 +27,10 @@ jobs:
         if: ${{ steps.release.outputs.pr }}
         run: sudo apt-get install gh
 
-      - name: Enable auto-merge for release PR
-        if: ${{ steps.release.outputs.pr }}
-        run: |
-          pr_number=$(echo '${{ steps.release.outputs.pr }}' | jq -r '.number')
-          gh pr merge $pr_number --squash --auto
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#      - name: Enable auto-merge for release PR
+#        if: ${{ steps.release.outputs.pr }}
+#        run: |
+#          pr_number=$(echo '${{ steps.release.outputs.pr }}' | jq -r '.number')
+#          gh pr merge $pr_number --squash --auto
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
