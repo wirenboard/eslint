@@ -20,10 +20,16 @@ jobs:
           manifest-file: ".release-please-manifest.json"
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - uses: actions/checkout@v4
+        if: ${{ steps.release.outputs.pr }}
+
+      - name: Install GitHub CLI
+        if: ${{ steps.release.outputs.pr }}
+        run: sudo apt-get install gh
+
       - name: Enable auto-merge for release PR
         if: ${{ steps.release.outputs.pr }}
         run: |
-          sudo apt-get install gh
           pr_number=$(echo '${{ steps.release.outputs.pr }}' | jq -r '.number')
           gh pr merge $pr_number --squash --auto
         env:
