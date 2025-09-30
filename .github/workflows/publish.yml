@@ -1,11 +1,39 @@
 name: Publish
 
 on:
-  release:
-    types: [published]
+  push:
+    branches:
+      - main
 
 jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    outputs:
+      release_created: ${{ steps.release.outputs.release_created }}
+      pr: ${{ steps.release.outputs.pr }}
+    steps:
+      - id: release
+        uses: google-github-actions/release-please-action@v4
+        with:
+          release-type: node
+
+      - uses: actions/checkout@v4
+        if: ${{ steps.release.outputs.pr }}
+
+      - name: Enable auto-merge for release PR
+        if: ${{ steps.release.outputs.pr }}
+        run: |
+          pr_number=$(echo '${{ steps.release.outputs.pr }}' | jq -r '.number')
+          gh pr merge $pr_number --squash --auto
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
   publish:
+    needs: release-please
+    if: ${{ needs.release-please.outputs.release_created }}
     runs-on: ubuntu-latest
     permissions:
       contents: read
