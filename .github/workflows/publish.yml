@@ -1,8 +1,9 @@
 name: Publish
 
 on:
-  release:
-    types: [published]
+  push:
+    branches:
+      - main
 
 jobs:
   publish:
@@ -14,6 +15,7 @@ jobs:
         id: release
         with:
           release-type: node
+        if: ${{ steps.release.outputs.release_created }}
 
       - uses: actions/checkout@v4
         if: ${{ steps.release.outputs.release_created }}
