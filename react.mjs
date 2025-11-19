@@ -3,13 +3,13 @@ import stylisticPlugin from '@stylistic/eslint-plugin';
 
 export default [
   {
-    files: ['**/*.{jsx,tsx}'],
     ignores: [
       '.git/**',
       'dist/**',
       'test/**',
       'node_modules/**',
     ],
+    files: ['**/*.{jsx,tsx}'],
     plugins: {
       react: reactPlugin,
       stylistic: stylisticPlugin,

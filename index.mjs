@@ -7,18 +7,18 @@ import globals from 'globals';
 
 export default [
   {
+    ignores: [
+      '.git/**',
+      'dist/**',
+      'test/**',
+      'node_modules/**',
+    ],
     files: [
       '**/*.js',
       '**/*.mjs',
       '**/*.ts',
       '**/*.tsx',
       '**/*.vue',
-    ],
-    ignores: [
-      '.git/**',
-      'dist/**',
-      'test/**',
-      'node_modules/**',
     ],
     rules: {
       ...js.configs.recommended.rules,
