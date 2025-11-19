@@ -1,4 +1,5 @@
 import reactPlugin from 'eslint-plugin-react';
+import stylisticPlugin from '@stylistic/eslint-plugin';
 
 export default [
   {
@@ -11,6 +12,7 @@ export default [
     ],
     plugins: {
       react: reactPlugin,
+      stylistic: stylisticPlugin,
     },
     rules: {
       'react/jsx-uses-vars': 2,
