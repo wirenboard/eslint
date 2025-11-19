@@ -76,6 +76,14 @@ export default [
         { selector: 'parameter', format: ['camelCase'], leadingUnderscore: 'allow' },
         { selector: 'class', format: ['PascalCase'] },
       ],
+      'typescript/consistent-type-imports': [
+        1,
+        {
+          prefer: 'type-imports',
+          fixStyle: 'inline-type-imports',
+        },
+      ],
+      'typescript/consistent-type-definitions': 1,
       'import/no-cycle': 2,
       'import/newline-after-import': 1,
       'import/no-duplicates': 2,
