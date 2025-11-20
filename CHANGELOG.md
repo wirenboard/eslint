@@ -9,7 +9,6 @@
 
 ### Bug Fixes
 
-* add stylistic plugin to react config ([a60bce8](https://github.com/wirenboard/eslint/commit/a60bce8c222cfa1834cbf4d4b9e0e7a1c049166e))
 * add stylistic plugin to react config ([e310f60](https://github.com/wirenboard/eslint/commit/e310f60cce1c08c1a439768052029262321d09b2))
 
 ## [1.5.0](https://github.com/wirenboard/eslint/compare/v1.4.22...v1.5.0) (2025-11-19)
