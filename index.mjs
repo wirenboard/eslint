@@ -63,7 +63,11 @@ export default [
       'stylistic/max-len': [1, { code: 120, comments: 160 }],
       'stylistic/comma-spacing': 1,
       'stylistic/comma-dangle': [1, {
-        objects: 'always-multiline', enums: 'always-multiline', imports: 'always-multiline', arrays: 'always-multiline',
+        objects: 'always-multiline',
+        enums: 'always-multiline',
+        imports: 'always-multiline',
+        arrays: 'always-multiline',
+        functions: 'always-multiline',
       }],
       'stylistic/member-delimiter-style': [1, {
         multiline: { delimiter: 'semi', requireLast: true }, singleline: { delimiter: 'semi', requireLast: false },
