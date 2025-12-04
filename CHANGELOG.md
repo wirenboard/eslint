@@ -4,6 +4,13 @@
 
 * add vue config ([e246cfa](https://github.com/wirenboard/eslint/commit/e246cfabd22a8080d30b1df4e0a301e52e51f89d))
 
+## [1.6.0](https://github.com/wirenboard/eslint/compare/v1.5.1...v1.6.0) (2025-12-04)
+
+
+### Features
+
+* add function comma dangle rule ([b0a87dc](https://github.com/wirenboard/eslint/commit/b0a87dcf6e99bc751064d95a6f0e104bfd3fcf5b))
+
 ## [1.5.1](https://github.com/wirenboard/eslint/compare/v1.5.0...v1.5.1) (2025-11-20)
 
 
