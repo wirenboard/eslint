@@ -4,6 +4,13 @@
 
 * add vue config ([e246cfa](https://github.com/wirenboard/eslint/commit/e246cfabd22a8080d30b1df4e0a301e52e51f89d))
 
+## [1.7.0](https://github.com/wirenboard/eslint/compare/v1.6.0...v1.7.0) (2026-04-10)
+
+
+### Features
+
+* add max lines rule ([baff820](https://github.com/wirenboard/eslint/commit/baff820ff5f0f386dc5c267e7a24b2c43d8e3bfe))
+
 ## [1.6.0](https://github.com/wirenboard/eslint/compare/v1.5.1...v1.6.0) (2025-12-04)
 
 
