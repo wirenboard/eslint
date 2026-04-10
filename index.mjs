@@ -25,6 +25,7 @@ export default [
       eqeqeq: 2,
       strict: [2, 'never'],
       'no-var': 1,
+      'max-lines': ['warn', 400],
       'no-empty': ['warn', { allowEmptyCatch: true }],
       'no-param-reassign': 2,
       'no-restricted-globals': 0,
